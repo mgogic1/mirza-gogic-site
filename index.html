@@ -468,6 +468,17 @@
       justify-items: stretch;
     }
 
+    .cert-pill:hover {
+  background: var(--accent-dark);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(19, 34, 53, 0.14);
+}
+
+.cert-pill {
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
     .contact-links a {
       background: rgba(255,255,255,0.1);
       border: 1px solid rgba(255,255,255,0.16);
@@ -836,18 +847,27 @@
           <p class="section-intro">A profile combining recognized security and privacy certifications with legal education in IT law and EU law, supported by technical education in networks and system administration.</p>
         </div>
 
-        <div class="cert-grid reveal">
-          <span class="cert-pill">CISSP</span>
-          <span class="cert-pill">CISM</span>
-          <span class="cert-pill">CRISC</span>
-          <span class="cert-pill">CIPP/E</span>
-          <span class="cert-pill">CIPM</span>
-          <span class="cert-pill">CIPT</span>
-          <span class="cert-pill">FIP</span>
-          <span class="cert-pill">CCSK</span>
-          <span class="cert-pill">ISO/IEC 27001 Lead Implementer</span>
-          <span class="cert-pill">ISO/IEC 27005 Risk Manager</span>
-        </div>
+<div class="cert-grid reveal">
+  <a class="cert-pill" href="https://www.isc2.org/certifications/cissp" target="_blank" rel="noopener noreferrer" title="ISC2 — Certified Information Systems Security Professional">CISSP</a>
+
+  <a class="cert-pill" href="https://www.isaca.org/credentialing/cism" target="_blank" rel="noopener noreferrer" title="ISACA — Certified Information Security Manager">CISM</a>
+
+  <a class="cert-pill" href="https://www.isaca.org/credentialing/crisc" target="_blank" rel="noopener noreferrer" title="ISACA — Certified in Risk and Information Systems Control">CRISC</a>
+
+  <a class="cert-pill" href="https://iapp.org/certify/cippe/" target="_blank" rel="noopener noreferrer" title="IAPP — Certified Information Privacy Professional/Europe">CIPP/E</a>
+
+  <a class="cert-pill" href="https://iapp.org/certify/cipm/" target="_blank" rel="noopener noreferrer" title="IAPP — Certified Information Privacy Manager">CIPM</a>
+
+  <a class="cert-pill" href="https://iapp.org/certify/cipt/" target="_blank" rel="noopener noreferrer" title="IAPP — Certified Information Privacy Technologist">CIPT</a>
+
+  <a class="cert-pill" href="https://iapp.org/certify/fip/" target="_blank" rel="noopener noreferrer" title="IAPP — Fellow of Information Privacy">FIP</a>
+
+  <a class="cert-pill" href="https://cloudsecurityalliance.org/education/ccsk" target="_blank" rel="noopener noreferrer" title="Cloud Security Alliance — Certificate of Cloud Security Knowledge">CCSK</a>
+
+  <a class="cert-pill" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-implementer" target="_blank" rel="noopener noreferrer" title="PECB — ISO/IEC 27001 Lead Implementer">ISO/IEC 27001 Lead Implementer</a>
+
+  <a class="cert-pill" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-risk-manager" target="_blank" rel="noopener noreferrer" title="PECB — ISO/IEC 27005 Risk Manager">ISO/IEC 27005 Risk Manager</a>
+</div>
 
         <div style="height: 42px;"></div>
 
